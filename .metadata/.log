@@ -272,3 +272,21 @@ Please check for update: Help > Check for Updates
 
 This file has been generated with STM32CubeMX version '6.6.1'.Your current STM32CubeMX version is '6.3.0'.
 Please check for update: Help > Check for Updates
+!SESSION 2023-10-27 21:06:58.905 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-27 21:07:26.604
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-27 21:07:26.667
+!MESSAGE Log4j initialized with config file D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-27 21:07:35.843
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-27 21:09:05.102
+!MESSAGE Indexed 'lab2' (20 sources, 98 headers) in 3.38 sec: 7,477 declarations; 36,615 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.42%)

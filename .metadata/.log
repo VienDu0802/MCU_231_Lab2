@@ -165,3 +165,25 @@ java.lang.Exception: File: D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\Lab2_Exercises\Debug\La
 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:914)
 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+!SESSION 2023-10-29 12:57:16.749 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\Lab2_Exercises\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\Lab2_Exercises\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-29 12:58:02.455
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-29 12:58:02.579
+!MESSAGE Log4j initialized with config file D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-29 12:58:09.928
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-29 12:58:12.913
+!MESSAGE Indexed 'Lab2_Exercises' (19 sources, 97 headers) in 2.39 sec: 7,481 declarations; 36,787 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.42%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-29 13:28:57.393
+!MESSAGE Indexed 'lab2' (20 sources, 98 headers) in 2.37 sec: 7,499 declarations; 36,796 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.42%)

@@ -1,15 +1,22 @@
-16:13:08 **** Incremental Build of configuration Debug for project Lab2_Exercises ****
+13:45:40 **** Incremental Build of configuration Debug for project Lab2_Exercises ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:247:13: warning: unused variable 'MAX_LED' [-Wunused-variable]
+  247 |   const int MAX_LED = 4;
+      |             ^~~~~~~
+../Core/Src/main.c:232:7: warning: unused variable 'num' [-Wunused-variable]
+  232 |   int num = 1;
+      |       ^~~
 arm-none-eabi-gcc -o "Lab2_Exercises.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\VXL_VDK\LAB\LAB_2\GIT_LAB2\Lab2_Exercises\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2_Exercises.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Lab2_Exercises.elf
  
 arm-none-eabi-size   Lab2_Exercises.elf 
 arm-none-eabi-objdump -h -S  Lab2_Exercises.elf  > "Lab2_Exercises.list"
 arm-none-eabi-objcopy  -O ihex  Lab2_Exercises.elf  "Lab2_Exercises.hex"
-   text	   data	    bss	    dec	    hex	filename
-   8572	     20	   1668	  10260	   2814	Lab2_Exercises.elf
 arm-none-eabi-objcopy  -O binary  Lab2_Exercises.elf  "Lab2_Exercises.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8500	     20	   1676	  10196	   27d4	Lab2_Exercises.elf
 Finished building: default.size.stdout
  
 Finished building: Lab2_Exercises.hex
@@ -19,5 +26,5 @@ Finished building: Lab2_Exercises.bin
 Finished building: Lab2_Exercises.list
  
 
-16:13:09 Build Finished. 0 errors, 0 warnings. (took 699ms)
+13:45:41 Build Finished. 0 errors, 2 warnings. (took 750ms)
 
